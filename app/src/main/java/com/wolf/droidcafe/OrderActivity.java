@@ -22,6 +22,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView textView = findViewById(R.id.order_textview);
         textView.setText(message);
+
         Spinner spinner = findViewById(R.id.label_spinner);
         if(spinner != null){
             spinner.setOnItemSelectedListener(this);
@@ -67,6 +68,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
-        // Do nothing
+        // Do
+
     }
 }
